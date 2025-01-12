@@ -173,7 +173,7 @@ export default function Home() {
               </div>
               <div className="w-full max-w-sm space-y-2">
                 <Button className="w-full bg-white text-[#4f46e5] hover:bg-gray-100">
-                  Cadastre-se Gratuitamente
+                  <a href={process.env.NEXT_PUBLIC_REGISTER_URL}>Cadastre-se Gratuitamente</a>
                 </Button>
                 <p className="text-xs text-gray-200">
                   Sem custos ocultos. Sem cartão de crédito necessário. Cancele
